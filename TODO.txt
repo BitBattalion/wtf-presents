@@ -1,12 +1,11 @@
-set up basic monocle structure
-get it running on heroku
-parse an amazon product page using nokogiri
-  * title
-  * price
-  * description
-get a database set up
-get a rake file set up to push to the database
-show random links from the database
-show all info from the database
-link to amazon
+[x] set up basic monocle structure
+[x] get it running on heroku
+[x] sign up for amazon associates
+[ ] get a database set up
+[ ] get a rake file set up to push to the database
+[ ] show random links from the database
+[ ] show all info from the database
+[ ] get a successful amazon product API query working
+[ ] get a successful affiliate link working
+[ ] link to amazon
 

@@ -8,6 +8,13 @@ require 'app/routes'
 
 module Gifts
   class App < Sinatra::Application
+
+    configure do
+      set :database, lambda {
+        ENV['DATABASE_URL']
+      }
+    end
+
     configure do
       disable :method_override
       disable :static
